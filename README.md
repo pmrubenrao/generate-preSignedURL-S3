@@ -32,7 +32,7 @@ You should see the following output:
 {
     "FunctionName": "presignedS3Lambda",
     "FunctionArn": "arn:aws:lambda:us-east-2:123456789012:function:my-function",
-    "Runtime": "nodejs12.x",
+    "Runtime": "Python3.x",
     "Role": "arn:aws:iam::123456789012:role/lambda-ex",
     "Handler": "presignedS3Lambda.lambda_handler",
     "CodeSha256": "FpFMvUhayLkOoVBpNuNiIVML/tuGv2iJQ7t0yWVTU8c=",
@@ -40,8 +40,7 @@ You should see the following output:
     "TracingConfig": {
         "Mode": "PassThrough"
     },
-    "RevisionId": "88ebe1e1-bfdf-4dc3-84de-3017268fa1ff",
-    ...
+    "RevisionId": "88ebe1e1-bfdf-4dc3-84de-3017268fa1ff"
 }
 ```
 
