@@ -1,15 +1,15 @@
 # Generate the pre-signed URL  for objects stored in S3 Bukcet
 
-This sample webpage can be used to upload and download the images from local machine to S3 bucket, with the help of Lambda Function
-Once images is uploaded our backend lamabda function responds back with the Pre-signed url of the image and display it on the webpage.
-Its just sample to How-to-generate-pre-signed-url of the object store in the S3 bucket
+This sample webpage can be used to upload and download the images from the local machine to the S3 bucket, with the help of Lambda Function
+Once images are uploaded our backend lambda function responds with the Pre-signed URL of the image and displays it on the webpage.
+It's just a sample to  How-to-generate-signed-URL of the object stored in the S3 bucket
 
 ##
 
 ## Requirements
-- Python 3 installed
-- AWS CLI already configured with right permission (access to create/update/delete lambda fucntion)
-- IAM role that is attached to the lambda fucntion to access the S3 bucket
+- Previous knowledge of AWS IAM roles.
+- AWS CLI is already configured with a user that has to write permissions (access to create/update/delete lambda function).
+- IAM role that is attached to the lambda function to access the S3 bucket.
 
 ## Project setup / Installation
 
